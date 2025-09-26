@@ -1,0 +1,85 @@
+2025-09-26 21:59:21,949 - INFO - Starting Research Agent...
+2025-09-26 21:59:21,950 - INFO - Starting basic functionality tests...
+2025-09-26 21:59:21,950 - INFO - Testing LLM connection...
+2025-09-26 21:59:21,950 - INFO - Making LLM call (attempt 1/3)
+2025-09-26 21:59:39,640 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-26 21:59:39,642 - WARNING - LLM call failed on attempt 1: Invalid response format from LLM
+2025-09-26 21:59:40,643 - INFO - Making LLM call (attempt 2/3)
+2025-09-26 21:59:49,942 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-26 21:59:49,943 - WARNING - LLM call failed on attempt 2: Invalid response format from LLM
+2025-09-26 21:59:51,944 - INFO - Making LLM call (attempt 3/3)
+2025-09-26 22:00:04,981 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-26 22:00:04,981 - WARNING - LLM call failed on attempt 3: Invalid response format from LLM
+2025-09-26 22:00:04,981 - ERROR - All LLM call attempts failed
+2025-09-26 22:00:04,997 - INFO - Testing web search...
+2025-09-26 22:00:04,997 - INFO - Searching web for: 'test search query' (attempt 1)
+2025-09-26 22:00:05,871 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=test%20search%20query 200
+2025-09-26 22:00:06,653 - INFO - response: https://search.brave.com/search?q=test+search+query&source=web 200
+2025-09-26 22:00:06,683 - INFO - Successfully retrieved 5 search results
+2025-09-26 22:00:06,686 - INFO - Research Agent finished
+2025-09-26 22:01:05,717 - INFO - Starting Research Agent...
+2025-09-26 22:01:05,718 - INFO - Processing question: create a readme for pocket flow based doc genertion project
+2025-09-26 22:01:05,718 - INFO - Agent flow created successfully
+2025-09-26 22:01:05,718 - INFO - Decision iteration 1
+2025-09-26 22:01:05,718 - INFO - Agent deciding what to do next...
+2025-09-26 22:01:05,719 - INFO - Making LLM call (attempt 1/3)
+2025-09-26 22:01:12,966 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-26 22:01:12,967 - WARNING - LLM call failed on attempt 1: Invalid response format from LLM
+2025-09-26 22:01:13,968 - INFO - Making LLM call (attempt 2/3)
+2025-09-26 22:01:19,668 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-26 22:01:19,669 - WARNING - LLM call failed on attempt 2: Invalid response format from LLM
+2025-09-26 22:01:21,669 - INFO - Making LLM call (attempt 3/3)
+2025-09-26 22:01:28,956 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-26 22:01:28,956 - WARNING - LLM call failed on attempt 3: Invalid response format from LLM
+2025-09-26 22:01:28,956 - ERROR - All LLM call attempts failed
+2025-09-26 22:01:28,957 - ERROR - Failed to get decision from LLM
+2025-09-26 22:01:28,957 - INFO - Agent decided to answer the question
+2025-09-26 22:01:28,957 - INFO - Crafting final answer...
+2025-09-26 22:01:28,958 - INFO - Making LLM call (attempt 1/3)
+2025-09-26 22:02:12,327 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-26 22:02:12,328 - WARNING - LLM call failed on attempt 1: Invalid response format from LLM
+2025-09-26 22:02:13,328 - INFO - Making LLM call (attempt 2/3)
+2025-09-26 22:02:50,011 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-26 22:02:50,011 - WARNING - LLM call failed on attempt 2: Invalid response format from LLM
+2025-09-26 22:02:52,012 - INFO - Making LLM call (attempt 3/3)
+2025-09-26 22:03:31,154 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-26 22:03:31,155 - WARNING - LLM call failed on attempt 3: Invalid response format from LLM
+2025-09-26 22:03:31,155 - ERROR - All LLM call attempts failed
+2025-09-26 22:03:31,156 - ERROR - Failed to generate answer
+2025-09-26 22:03:31,156 - INFO - Answer generated successfully
+2025-09-26 22:03:31,156 - INFO - Processing completed in 145.44 seconds
+2025-09-26 22:03:31,157 - INFO - Completed with 1 iterations
+2025-09-26 22:03:31,157 - INFO - Research Agent finished
+2025-09-26 22:03:41,948 - INFO - Starting Research Agent...
+2025-09-26 22:03:41,948 - INFO - Processing question: Who won the Nobel Prize in Physics 2024?
+2025-09-26 22:03:41,948 - INFO - Agent flow created successfully
+2025-09-26 22:03:41,948 - INFO - Decision iteration 1
+2025-09-26 22:03:41,949 - INFO - Agent deciding what to do next...
+2025-09-26 22:03:41,949 - INFO - Making LLM call (attempt 1/3)
+2025-09-26 22:03:49,615 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-26 22:03:49,616 - WARNING - LLM call failed on attempt 1: Invalid response format from LLM
+2025-09-26 22:03:50,616 - INFO - Making LLM call (attempt 2/3)
+2025-09-26 22:03:58,124 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-26 22:03:58,124 - WARNING - LLM call failed on attempt 2: Invalid response format from LLM
+2025-09-26 22:04:00,125 - INFO - Making LLM call (attempt 3/3)
+2025-09-26 22:04:07,462 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-26 22:04:07,462 - WARNING - LLM call failed on attempt 3: Invalid response format from LLM
+2025-09-26 22:04:07,462 - ERROR - All LLM call attempts failed
+2025-09-26 22:04:07,463 - ERROR - Failed to get decision from LLM
+2025-09-26 22:04:07,463 - INFO - Agent decided to answer the question
+2025-09-26 22:04:07,463 - INFO - Crafting final answer...
+2025-09-26 22:04:07,463 - INFO - Making LLM call (attempt 1/3)
+2025-09-26 22:04:20,911 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-26 22:04:20,911 - WARNING - LLM call failed on attempt 1: Invalid response format from LLM
+2025-09-26 22:04:21,911 - INFO - Making LLM call (attempt 2/3)
+2025-09-26 22:04:32,668 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-26 22:04:32,668 - WARNING - LLM call failed on attempt 2: Invalid response format from LLM
+2025-09-26 22:04:34,669 - INFO - Making LLM call (attempt 3/3)
+2025-09-26 22:04:51,285 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-26 22:04:51,286 - WARNING - LLM call failed on attempt 3: Invalid response format from LLM
+2025-09-26 22:04:51,286 - ERROR - All LLM call attempts failed
+2025-09-26 22:04:51,286 - ERROR - Failed to generate answer
+2025-09-26 22:04:51,286 - INFO - Answer generated successfully
+2025-09-26 22:04:51,287 - INFO - Processing completed in 69.34 seconds
+2025-09-26 22:04:51,288 - INFO - Completed with 1 iterations
+2025-09-26 22:04:51,289 - INFO - Research Agent finished
